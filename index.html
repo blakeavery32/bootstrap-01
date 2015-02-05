@@ -1,56 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap 101 Template</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom -->
-    <link href="css/custom.css" rel="stylesheet">
-	
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom -->
+  <link href="css/custom.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-	
-   <!-- Indicates a successful or positive action -->
-   <button type="button" class="btn btn-success">Success</button>
-   
-   <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button>
+      <![endif]-->
+    </head>
+    <body>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      <div class="container">
+
+        <div class="row">
+          <div class="jumbotron col-md-12">
+            <h1>Thursday Demo</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus, tellus sed lobortis fermentum, turpis tellus imperdiet erat, at gravida metus dolor vitae nunc. Praesent at est arcu. Maecenas ac eros semper, tempus est nec, congue orci. Phasellus lobortis sem ut ipsum placerat bibendum ut nec enim. Quisque pellentesque, odio vel elementum accumsan, lorem sapien lobortis neque, ut consequat nunc enim sed ligula. Nunc egestas gravida lectus at fringilla. Duis congue fringilla hendrerit. Nam vehicula in dolor ut fermentum. Proin nulla augue, condimentum at leo non, finibus gravida lorem. Nulla facilisi.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+              Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-4">
+            <img src="http://placehold.it/350x350">
+          </img>
+          <h1> Product A </h1>
+          <p>Donec sagittis et libero ut scelerisque. Ut sed risus ipsum. Donec lobortis risus ut imperdiet tempor. Mauris accumsan sapien nec iaculis pellentesque. Nam vel quam at diam bibendum imperdiet. Sed et dictum nibh. Nullam tincidunt vitae ipsum vel semper. Praesent quam ligula, molestie a ipsum at, tincidunt cursus lectus. Proin vehicula laoreet mi, quis malesuada mi pharetra eu. Curabitur at ullamcorper turpis. Aliquam erat volutpat. Donec pharetra efficitur lorem eget blandit.</p>
+      
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            Buy Now
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <img src="http://placehold.it/350x350">
+        </img>
+        <h1> Product B </h1>
+        <p>Aliquam ut auctor est. Donec non placerat massa. Proin efficitur, mauris a tristique vulputate, dui justo scelerisque urna, ac pretium eros urna eget diam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed quis egestas mi. Etiam ac erat vel augue mollis tincidunt et vitae ipsum. Suspendisse commodo tortor vel scelerisque tincidunt. Etiam ac nisi risus. Nam nec dui nisi. Nulla iaculis erat mi, in dignissim elit fringilla sed. Praesent pulvinar et lorem nec dapibus. In placerat libero nisi, ut dictum lectus ullamcorper ut. Nulla dignissim tellus et lectus volutpat aliquam. Proin non velit non odio euismod tincidunt et a enim.</p>
+      
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+          Buy Now
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+
+      <div class="col-md-4">
+        <img src="http://placehold.it/350x350">
+      </img>
+      <h1> Product C </h1>
+      <p>Etiam fringilla consectetur lorem, eget imperdiet metus vestibulum nec. Vivamus ac felis eu eros elementum elementum. Nam magna diam, imperdiet at velit ut, bibendum suscipit tellus. Maecenas maximus mi eget volutpat aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur quis rhoncus odio, et tincidunt dui. Donec tincidunt porta sem vitae pretium.</p>
+      
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+       Buy Now
+     </button>
+
+     <!-- Modal -->
+     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
-    
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
